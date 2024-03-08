@@ -1,0 +1,50 @@
+/* General CSS */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* NavBar CSS */
+.navBar{
+    display: flex;
+    height: 150px;
+    border: solid black 3px; 
+    justify-content: space-between;
+}
+
+.logo{
+    width: 40%;
+    border: solid red;
+}
+
+.options{
+    width: 20%;
+    border: solid blue;
+}
+
+.cart{
+    width: 20%;
+    border: solid yellowgreen 13px
+}
+
+/* CSS For small screens */
+@media (max-width: 500px){
+    
+    /* Nav Bar CSS */
+
+    .logo{
+        width: 60%;
+    }
+    .options{
+        display: none;
+    }
+
+    .cart{
+        display: none;
+    }
+
+    .optionssm{
+        width: 40%;
+        border: solid purple 5px;
+    }
+}
