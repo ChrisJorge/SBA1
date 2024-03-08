@@ -3,7 +3,9 @@ body{
     background-image: url('./images/concert.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 150vh;
 }
+
 
 h2, p, label {
     color: aliceblue;
@@ -55,4 +57,14 @@ h2, p, label {
     width: 350px;
     height: 400px;
     border: solid black;
+}
+
+@media (max-width: 500px){
+    body{
+        background-position: center;
+    }
+
+    .signUpContainer{
+        margin-top: 1em;
+    }
 }
