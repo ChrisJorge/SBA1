@@ -118,10 +118,18 @@ body{
 
 /* Section CSS */
 .selectionContainer{
-    border: solid salmon;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
+.selectionHeading h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 55px;
+    font-family: "Tangerine", cursive;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 .itemContainer{
     display: flex;
     width: 100%;
@@ -132,18 +140,24 @@ body{
     width: 300px;
     border: solid black;
     margin-right: 25px;
+    margin-bottom: 15px;
 }
 
 .itemImg{
     width: 300px;
-    height: 60%;
-    border: solid blue 1px;
+    height: 200px;
+   
+}
+
+.itemImg img{
+    height: 200px;
+    width: 300px;
 }
 
 .itemTxt{
     width: 300px;
     height: 40%;
-    border: solid limegreen 1px;
+    color: aliceblue;
 }
 
 /* CSS For small screens */
@@ -227,7 +241,7 @@ body{
 
     
     .item{
-        height: 200px;
+        height: 300px;
         width: 200px;
         border: solid black;
         margin-right: 25px;
@@ -235,14 +249,17 @@ body{
     
     .itemImg{
         width: 200px;
-        height: 60%;
-        border: solid blue 1px;
+        height: 150px;
     }
     
+    .itemImg img{
+        height: 150px;
+        width: 200px;
+    }
+
     .itemTxt{
         width: 200px;
         height: 40%;
-        border: solid limegreen 1px;
     }
 
     
