@@ -12,13 +12,13 @@ body{
 .navBar{
     display: flex;
     height: 150px;
-    border: solid black 3px; 
+    
     justify-content: space-between;
 }
 
 .lowernavBar{
     height: 50px;
-    border: solid yellow 15px;
+    border: solid black 2px;
 }
 
 .logo{
@@ -68,6 +68,8 @@ svg{
 
 .lowernavBar p{
     margin: 15px;
+    color: aliceblue;
+    font-size: 25px;
 }
 
 /* Advertisement CSS */
