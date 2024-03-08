@@ -12,6 +12,11 @@ body{
     justify-content: space-between;
 }
 
+.lowernavBar{
+    height: 50px;
+    border: solid yellow 15px;
+}
+
 .logo{
     width: 40%;
     border: solid red;
@@ -27,6 +32,18 @@ body{
     border: solid yellowgreen 13px
 }
 
+.lowernavBarcontainer{
+    display: flex;
+    justify-content: center;
+}
+.lowernavBarText{
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.lowernavBar p{
+    margin: 15px;
+}
 /* CSS For small screens */
 @media (max-width: 500px){
     
@@ -47,4 +64,11 @@ body{
         width: 40%;
         border: solid purple 5px;
     }
+
+    .lowernavBarText{
+        overflow: scroll;
+        display: flex;
+        flex-wrap:nowrap;
+    }
+    
 }
