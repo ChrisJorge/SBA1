@@ -32,12 +32,25 @@ body{
     font-size: 45px;
     margin-top: 50px;
 }
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropDown{
+    display: none;
+}
 .options{
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 
 .button{
     background-color: white;
@@ -52,7 +65,7 @@ body{
     background-color: #312d2d;
 }
 
-svg{
+ svg{
     fill: aliceblue;
 }
 
@@ -130,7 +143,38 @@ svg{
 
     .optionssm{
         width: 40%;
-        border: solid purple 5px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .dropDown{
+        display: inline-block;
+        position: relative;
+    }
+
+    .dropDown:hover .dropDownContent {
+        display: block;
+    }
+
+    .dropDownContent a {
+        display: block;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .dropDownContent{
+        background-color: aliceblue;
+        width: 80px;
+    }
+    .optionssm button{
+        border: none;
+        background-color: #312d2d;
+    }
+
+    .shoppingCartsm svg{
+        fill: black;
     }
 
     .lowernavBarText{
@@ -160,5 +204,6 @@ svg{
         height: 40%;
         border: solid limegreen 1px;
     }
+
     
 }
