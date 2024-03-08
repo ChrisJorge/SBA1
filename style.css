@@ -23,7 +23,6 @@ body{
 
 .logo{
     width: 40%;
-    border: solid red;
     text-align: center;
     color: aliceblue;
     font-family: "Tangerine", cursive;
@@ -34,13 +33,27 @@ body{
     margin-top: 50px;
 }
 .options{
-    width: 20%;
-    border: solid blue;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.cart{
-    width: 20%;
-    border: solid yellowgreen 13px
+.button{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: solid black;
+    margin-right: 25px;
+}
+
+.shoppingCart{
+    border: none;
+    background-color: #312d2d;
+}
+
+svg{
+    fill: aliceblue;
 }
 
 .lowernavBarcontainer{
