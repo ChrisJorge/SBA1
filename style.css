@@ -1,7 +1,8 @@
-/* General CSS */
+/* General CSS - Index.html */
 body{
     margin: 0%;
     padding: 0%;
+    background-color: #312d2d;
 }
 
 /* NavBar CSS */
@@ -23,8 +24,15 @@ body{
 .logo{
     width: 40%;
     border: solid red;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Tangerine", cursive;
 }
 
+.logo h1{
+    font-size: 45px;
+    margin-top: 50px;
+}
 .options{
     width: 20%;
     border: solid blue;
