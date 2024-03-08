@@ -43,13 +43,13 @@ body{
 .lowernavBarText{
     display: flex;
     flex-wrap:nowrap;
-    
 }
 
 .lowernavBar p{
     margin: 15px;
 }
 
+/* Advertisement CSS */
 .advertisement{
     display: flex;
     width: 100%;
@@ -59,6 +59,35 @@ body{
     align-items: center;
 }
 
+/* Section CSS */
+.selectionContainer{
+    border: solid salmon;
+    overflow-x: scroll;
+}
+
+.itemContainer{
+    display: flex;
+    width: 100%;
+}
+
+.item{
+    height: 300px;
+    width: 300px;
+    border: solid black;
+    margin-right: 25px;
+}
+
+.itemImg{
+    width: 300px;
+    height: 60%;
+    border: solid blue 1px;
+}
+
+.itemTxt{
+    width: 300px;
+    height: 40%;
+    border: solid limegreen 1px;
+}
 
 /* CSS For small screens */
 @media (max-width: 500px){
@@ -82,9 +111,31 @@ body{
     }
 
     .lowernavBarText{
-        overflow: scroll;
+        overflow-x: scroll;
         display: flex;
         flex-wrap:nowrap;
+    }
+
+    /* Section CSS */
+
+    
+    .item{
+        height: 200px;
+        width: 200px;
+        border: solid black;
+        margin-right: 25px;
+    }
+    
+    .itemImg{
+        width: 200px;
+        height: 60%;
+        border: solid blue 1px;
+    }
+    
+    .itemTxt{
+        width: 200px;
+        height: 40%;
+        border: solid limegreen 1px;
     }
     
 }
