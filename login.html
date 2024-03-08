@@ -19,21 +19,47 @@
                       <h2>Login</h2>
                 </div>
                 <div class="loginBody">
-                    <div class="info">
-                        <p>Email: </p>
+                    <form>
+                        <label for="fname">Email:</label>
+                        <input type="text" placeholder="Enter Your Email"><br><br><br>
+                        <label for="fname">Password:</label>
                         <input type="text" placeholder="Enter Your Email">
-                    </div>
-                    <div class="info">
-                        <p>Password: </p>
-                        <input type="text" placeholder="Enter Your Password">
-                    </div>
+                    </form>
                     <div class="btn">
                         <button>Log In</button>
                     </div>
                 </div>
             </div>
             <div class="signUpContainer">
-
+                <div class="logInHeader">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                      </svg>
+                      <h2>Sign Up</h2>
+                </div>
+                <div class="signinBody">
+                    <form>
+                        <label for="fname">Name:</label>
+                        <input type="text" placeholder="Enter Your Name"><br><br>
+                        <label for="fname">Email:</label>
+                        <input type="text" placeholder="Enter Your Email"> <br><br>
+                        <label for="fname">Password:</label>
+                        <input type="password"  placeholder="Enter Your Password"> <br><br>
+                        <label for="fname">Confirm:</label>
+                        <input type="password"  placeholder="Enter Your Password"> <br><br>
+                        <p>Choose Membership Type</p>
+                        <input type="radio" id="Basic" name="Membership_type" value="Basic">
+                        <label for="Basic">Basic</label>
+                        <input type="radio" id="Pro" name="Membership_type" value="Pro">
+                        <label for="Pro">Pro</label>
+                        <input type="radio" id="Platinum" name="Membership_type" value="Platinum">
+                        <label for="Platinum">Platinum</label>
+                    </form>
+                    <div class="btn">
+                        <button>Log In</button>
+                    </div>
+                </div>
             </div>
         </div>
         
