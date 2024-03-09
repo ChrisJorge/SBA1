@@ -107,7 +107,61 @@ table{
     }
 
     .membershipContainer{
-        margin: 1em;
+        margin-top: 200px;
+    }
+
+    /* NavBar Css */
+    .logo{
+        width: 60%;
+    }
+    .options{
+        display: none;
+    }
+
+    .cart{
+        display: none;
+    }
+
+    .optionssm{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .dropDown{
+        display: inline-block;
+        position: relative;
+    }
+
+    .dropDown:hover .dropDownContent {
+        display: block;
+    }
+
+    .dropDownContent a {
+        display: block;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .dropDownContent{
+        background-color: aliceblue;
+        width: 80px;
+    }
+    .optionssm button{
+        border: none;
+        background-color: #312d2da1;
+    }
+
+    .shoppingCartsm svg{
+        fill: black;
+    }
+
+    .lowernavBarText{
+        overflow-x: scroll;
+        display: flex;
+        flex-wrap:nowrap;
     }
 }
 
@@ -118,5 +172,59 @@ table{
 
     td, tr{
         font-size: 12px;
+    }
+
+    /* NavBar Css */
+    .logo{
+        width: 60%;
+    }
+    .options{
+        display: none;
+    }
+
+    .cart{
+        display: none;
+    }
+
+    .optionssm{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .dropDown{
+        display: inline-block;
+        position: relative;
+    }
+
+    .dropDown:hover .dropDownContent {
+        display: block;
+    }
+
+    .dropDownContent a {
+        display: block;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .dropDownContent{
+        background-color: aliceblue;
+        width: 80px;
+    }
+    .optionssm button{
+        border: none;
+        background-color: #312d2da1;
+    }
+
+    .shoppingCartsm svg{
+        fill: black;
+    }
+
+    .lowernavBarText{
+        overflow-x: scroll;
+        display: flex;
+        flex-wrap:nowrap;
     }
 }
