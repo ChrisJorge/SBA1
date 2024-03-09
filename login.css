@@ -14,9 +14,7 @@ body{
     top: 0%;
     background-color: #312d2da1;
 }
-.lowernavBarcontainer{
-    margin: 0%;
-}
+
 .navBar{
     display: flex;
     height: 150px;
@@ -68,10 +66,6 @@ body{
     margin-right: 25px;
 }
 
-.shoppingCart{
-    border: none;
-    background-color: #312d2da1;
-}
 
  svg{
     fill: aliceblue;
