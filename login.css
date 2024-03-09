@@ -6,6 +6,77 @@ body{
     height: 150vh;
 }
 
+/* NavBar CSS */
+.navBarContainer{
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    background-color: #312d2da1;
+}
+.lowernavBarcontainer{
+    margin: 0%;
+}
+.navBar{
+    display: flex;
+    height: 150px;
+    
+    justify-content: space-between;
+}
+
+.lowernavBar{
+    height: 50px;
+    border: solid black 2px;
+}
+
+.logo{
+    width: 40%;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Tangerine", cursive;
+}
+
+.logo h1{
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropDown{
+    display: none;
+}
+.options{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.button{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: solid black;
+    margin-right: 25px;
+}
+
+.shoppingCart{
+    border: none;
+    background-color: #312d2da1;
+}
+
+ svg{
+    fill: aliceblue;
+}
+
 
 h2, p, label {
     color: aliceblue;
