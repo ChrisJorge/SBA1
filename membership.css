@@ -1,0 +1,40 @@
+body{
+    background-color: #312d2d;
+}
+
+td,th{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+th,td,tr{
+    border: solid white;
+    border-radius: 15px;
+    
+}
+
+.membershipContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-spacing: 30px;
+}
+
+
+@media (min-width: 281px) and (max-width: 500px){
+    table{
+        border-spacing: 5px;
+    }
+
+    th, td{
+        font-size: 15px;
+    }
+
+    .membershipContainer{
+        margin: 1em;
+    }
+}
+
