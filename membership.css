@@ -38,3 +38,12 @@ table{
     }
 }
 
+@media (max-width: 280px){
+    table{
+        border-spacing: 0px
+    }
+
+    td, tr{
+        font-size: 12px;
+    }
+}
