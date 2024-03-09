@@ -83,8 +83,8 @@ h2, p, label {
     margin-left: 5px;
 }
 .registrationContainer{
+    margin-top: 200px;
     display: flex;
-    height: 100vh;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
