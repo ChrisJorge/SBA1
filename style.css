@@ -7,15 +7,29 @@ body{
 
 @keyframes scroll {
     0%{
-        transform: translateX(-100%);
+        transform: translateX(-20%);
     }
 
     50%{
-        transform: translateX(100%);
+        transform: translateX(30%);
     }
 
     100%{
-        transform: translate(0%);
+        transform: translate(-20%);
+    }
+}
+
+@keyframes scrollsm{
+    0%{
+        transform: translateX(-5%);
+    }
+
+    50%{
+        transform: translateX(5%);
+    }
+
+    100%{
+        transform: translate(-5%);
     }
 }
 /* NavBar CSS */
@@ -244,6 +258,7 @@ body{
 
     /* Advertisement CSS */
     .advertisementContent p{
+        animation: scrollsm 10s infinite ease-in-out;
         color: yellow;
         font-size: 25px;
     }
