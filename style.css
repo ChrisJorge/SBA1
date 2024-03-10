@@ -5,6 +5,19 @@ body{
     background-color: #312d2d;
 }
 
+@keyframes scroll {
+    0%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translate(0%);
+    }
+}
 /* NavBar CSS */
 .navBarContainer{
     position: fixed;
@@ -107,6 +120,7 @@ body{
 }
 
 .advertisementContent p{
+    animation: scroll 10s infinite ease-in-out;
     color: yellow;
     font-size: 30px;
 }
