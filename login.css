@@ -154,7 +154,7 @@ h2, p, label {
     }
 
     .dropDown:hover .dropDownContent {
-        display: block;
+        display: block
     }
 
     .dropDownContent a {
